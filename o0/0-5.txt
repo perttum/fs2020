@@ -1,0 +1,10 @@
+title 0.5
+
+Client->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+Server-->Client: sends back HTML
+Client->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+Server-->Client: sends back main.css file
+Client->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+Server-->Client: sends main.js to client
+Client->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+Server-->Client: sends json back to client

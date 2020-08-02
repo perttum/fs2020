@@ -1,0 +1,4 @@
+title 0.6
+
+Client->Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+Server-->Client: Send back JSON data (and React renders it)

@@ -1,0 +1,12 @@
+title 0.4
+
+Selain->Palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+Palvelin-->Selain: redirect /notes
+Selain->Palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+Palvelin-->Selain: Sends html page to client
+Selain->Palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+Palvelin-->Selain: Sends back main.css
+Selain->Palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+Palvelin-->Selain: Sends main.js to client
+Selain->Palvelin: HTTP GET (ajax call) https://fullstack-exampleapp.herokuapp.com/data.json
+Palvelin-->Selain: Send back notes in json format
